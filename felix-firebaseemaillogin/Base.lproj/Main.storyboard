@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Email" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rMD-b6-rcF">
+                                <rect key="frame" x="20" y="186" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="hNx-Xn-VgM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="o6U-QJ-qcE"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="i6J-xd-tV2">
+                                <rect key="frame" x="20" y="236" width="560" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="wLf-rY-ijU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="WId-dT-kkh"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JF6-J4-Di6">
+                                <rect key="frame" x="0.0" y="276" width="600" height="314"/>
+                                <state key="normal" title="Create / Login"/>
+                                <connections>
+                                    <action selector="loginButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="boY-CT-qOT"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="felixlogo" translatesAutoresizingMaskIntoConstraints="NO" id="Cvq-I9-a3G">
+                                <rect key="frame" x="229" y="72" width="143" height="96"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Cvq-I9-a3G" secondAttribute="height" multiplier="143:96" id="dK4-Hv-46m"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="i6J-xd-tV2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="9r8-aU-ds2"/>
+                            <constraint firstItem="Cvq-I9-a3G" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="52" id="Ata-QP-ejy"/>
+                            <constraint firstItem="Cvq-I9-a3G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B9V-Nt-vTL"/>
+                            <constraint firstItem="JF6-J4-Di6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EI2-e6-Nuc"/>
+                            <constraint firstItem="JF6-J4-Di6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="FEW-e1-d7g"/>
+                            <constraint firstItem="i6J-xd-tV2" firstAttribute="top" secondItem="rMD-b6-rcF" secondAttribute="bottom" constant="20" id="FOq-y0-4Kb"/>
+                            <constraint firstItem="JF6-J4-Di6" firstAttribute="top" secondItem="i6J-xd-tV2" secondAttribute="bottom" constant="10" id="bGO-fA-wiF"/>
+                            <constraint firstItem="rMD-b6-rcF" firstAttribute="top" secondItem="Cvq-I9-a3G" secondAttribute="bottom" constant="18" id="c1x-5L-hfe"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="JF6-J4-Di6" secondAttribute="bottom" constant="10" id="cEw-PJ-A9K"/>
+                            <constraint firstItem="rMD-b6-rcF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="fjW-1c-ai0"/>
+                            <constraint firstItem="rMD-b6-rcF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jp9-xC-zGl"/>
+                            <constraint firstItem="i6J-xd-tV2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rql-no-cvR"/>
+                            <constraint firstItem="Cvq-I9-a3G" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="10" id="y6L-Ma-qYb"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="buttonLogin" destination="JF6-J4-Di6" id="3v3-aC-VFe"/>
+                        <outlet property="textFieldEmail" destination="rMD-b6-rcF" id="aPd-5S-NIN"/>
+                        <outlet property="textFieldPassword" destination="i6J-xd-tV2" id="sYo-bH-ggE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="felixlogo" width="143" height="96"/>
+    </resources>
+</document>

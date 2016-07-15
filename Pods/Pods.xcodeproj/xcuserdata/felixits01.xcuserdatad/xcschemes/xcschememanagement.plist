@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-felix-firebaseemaillogin.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-felix-firebaseemailloginTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-felix-firebaseemailloginUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>51D35FBC821E7D347CFB570C2D4EAEC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6B212B9E4D6AD00AB77B41A115E90F60</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D339D7CC3CD5FFCDC10C082E9E71AF26</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

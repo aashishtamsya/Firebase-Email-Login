@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17990AF76ED4954F67F84E1D762FF6CD /* Pods-felix-firebaseemaillogin-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FE1B2A45E21BF7F714EE3F668CA1A1F /* Pods-felix-firebaseemaillogin-dummy.m */; };
+		1C8B3B4327800CD770DBCD0C97FFBAB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1EF8D95E949270E3CBDC65CE7DFE7A70 /* Pods-felix-firebaseemailloginTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3159711C181D04530A387EABED383CA /* Pods-felix-firebaseemailloginTests-dummy.m */; };
+		23339AD323183C9952EEE4418197BF64 /* Pods-felix-firebaseemailloginUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA53325DCCB71366F77C761BA63854C /* Pods-felix-firebaseemailloginUITests-dummy.m */; };
+		6EF3034EC6BA396E76F4D0ABC1C60C22 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DD2AB5E0FBD5478470CAD78A3E73A464 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		06B85C3A114C9E87BC9666EF491964CC /* GoogleSymbolUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleSymbolUtilities.framework; path = Frameworks/GoogleSymbolUtilities.framework; sourceTree = "<group>"; };
+		0AA660E159ADF734856AF30030862857 /* Pods-felix-firebaseemailloginTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-felix-firebaseemailloginTests-resources.sh"; sourceTree = "<group>"; };
+		0E0F108B0170815A24A2B8ED179BB8C2 /* Pods-felix-firebaseemailloginTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-felix-firebaseemailloginTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1010AC4AD9D43BD35C9E96FC338C3C07 /* Pods-felix-firebaseemaillogin-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-felix-firebaseemaillogin-acknowledgements.plist"; sourceTree = "<group>"; };
+		19D31203316217F5B2B108FAD238C64F /* Pods-felix-firebaseemailloginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-felix-firebaseemailloginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D611C7BD04F92D19379BF2645D96908 /* Pods-felix-firebaseemaillogin-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-felix-firebaseemaillogin-acknowledgements.markdown"; sourceTree = "<group>"; };
+		221D433E706DC75AC0BBEAE3B44772F5 /* Pods-felix-firebaseemailloginUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-felix-firebaseemailloginUITests-frameworks.sh"; sourceTree = "<group>"; };
+		3021240F567B3789E2D53F0B5877AE09 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAnalytics.framework; path = Frameworks/FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		336B5FA62C43B44C37C87324932952E7 /* FIRInstanceID.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FIRInstanceID.h; path = Headers/Public/FIRInstanceID.h; sourceTree = "<group>"; };
+		34CAF262BB71E7850041F47EF3260ED5 /* GoogleInterchangeUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleInterchangeUtilities.framework; path = Frameworks/GoogleInterchangeUtilities.framework; sourceTree = "<group>"; };
+		47878BFB9B8A5B0D91470D442CDD5AE2 /* libPods-felix-firebaseemaillogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-felix-firebaseemaillogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		479708CD7335FD4A9F50BB7A6BD0BDA7 /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Firebase.h; path = Headers/Firebase.h; sourceTree = "<group>"; };
+		4B1BB019CA8A3B20B04D42EB309E1A35 /* Pods-felix-firebaseemailloginTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-felix-firebaseemailloginTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5AE7542BE0DEA7355990B3993D928FF7 /* Pods-felix-firebaseemailloginTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-felix-firebaseemailloginTests-frameworks.sh"; sourceTree = "<group>"; };
+		5DE2687BAA29CFDA3420DF6E449B352B /* Pods-felix-firebaseemailloginUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-felix-firebaseemailloginUITests-resources.sh"; sourceTree = "<group>"; };
+		63C3F9E42E8909834DB7F7781965F5E9 /* Pods-felix-firebaseemailloginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-felix-firebaseemailloginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8027CE76B23DC2A0F0E5C3C35983EAF6 /* Pods-felix-firebaseemaillogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-felix-firebaseemaillogin.debug.xcconfig"; sourceTree = "<group>"; };
+		8CA2BBC52F634BC325456689AD6D5B7E /* Pods-felix-firebaseemaillogin-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-felix-firebaseemaillogin-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94E4F17500394FC485EE7C06E1FD1FB4 /* GoogleUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleUtilities.framework; path = Frameworks/GoogleUtilities.framework; sourceTree = "<group>"; };
+		98BB44A16F79BEF584F971E949214C98 /* GoogleNetworkingUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleNetworkingUtilities.framework; path = Frameworks/GoogleNetworkingUtilities.framework; sourceTree = "<group>"; };
+		9FE1B2A45E21BF7F714EE3F668CA1A1F /* Pods-felix-firebaseemaillogin-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-felix-firebaseemaillogin-dummy.m"; sourceTree = "<group>"; };
+		A266BC1C100EAB1CCA007AD16AAD9C67 /* Pods-felix-firebaseemailloginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-felix-firebaseemailloginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A8CF1594EB2D2756B026E1783B7220DF /* libPods-felix-firebaseemailloginUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-felix-firebaseemailloginUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D3C22B87F73616512D2243A71A3310 /* Pods-felix-firebaseemaillogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-felix-firebaseemaillogin.release.xcconfig"; sourceTree = "<group>"; };
+		AF11577D1086BBD20AB1515F7B122A93 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseInstanceID.framework; path = Frameworks/FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		B06A817A748E5C8A5B3A962C657E7A7C /* Pods-felix-firebaseemaillogin-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-felix-firebaseemaillogin-frameworks.sh"; sourceTree = "<group>"; };
+		B3159711C181D04530A387EABED383CA /* Pods-felix-firebaseemailloginTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-felix-firebaseemailloginTests-dummy.m"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFA53325DCCB71366F77C761BA63854C /* Pods-felix-firebaseemailloginUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-felix-firebaseemailloginUITests-dummy.m"; sourceTree = "<group>"; };
+		DB7BEFBB5BDE918C0331726FDD1A62FB /* Pods-felix-firebaseemailloginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-felix-firebaseemailloginTests.release.xcconfig"; sourceTree = "<group>"; };
+		E46C730C114B4DE1FDA33D30476D08DE /* Pods-felix-firebaseemailloginUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-felix-firebaseemailloginUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E553A7EF3FB34805207AE443F886243A /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseAuth.framework; path = Frameworks/FirebaseAuth.framework; sourceTree = "<group>"; };
+		EA3B2EC7CA11FC7BD177C8D8F9AFA746 /* libPods-felix-firebaseemailloginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-felix-firebaseemailloginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA544339E94DA34EC892AB30B192CBB7 /* Pods-felix-firebaseemailloginUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-felix-firebaseemailloginUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38735F6FEE18958A58A6F15E2D3CC1EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C8B3B4327800CD770DBCD0C97FFBAB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A842E0F5FFEEBD61F1EBDA883A6B25C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD2AB5E0FBD5478470CAD78A3E73A464 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95D7B3D399559C94D09C32CA3FA78FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EF3034EC6BA396E76F4D0ABC1C60C22 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0467A09FD982402E503CCD5089004D0F /* GoogleSymbolUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				DC9015FE90790A9ECFD4771F6399FB10 /* Frameworks */,
+			);
+			path = GoogleSymbolUtilities;
+			sourceTree = "<group>";
+		};
+		1E3A4F8378891B77E4236D0803AAE116 /* Pods-felix-firebaseemaillogin */ = {
+			isa = PBXGroup;
+			children = (
+				1D611C7BD04F92D19379BF2645D96908 /* Pods-felix-firebaseemaillogin-acknowledgements.markdown */,
+				1010AC4AD9D43BD35C9E96FC338C3C07 /* Pods-felix-firebaseemaillogin-acknowledgements.plist */,
+				9FE1B2A45E21BF7F714EE3F668CA1A1F /* Pods-felix-firebaseemaillogin-dummy.m */,
+				B06A817A748E5C8A5B3A962C657E7A7C /* Pods-felix-firebaseemaillogin-frameworks.sh */,
+				8CA2BBC52F634BC325456689AD6D5B7E /* Pods-felix-firebaseemaillogin-resources.sh */,
+				8027CE76B23DC2A0F0E5C3C35983EAF6 /* Pods-felix-firebaseemaillogin.debug.xcconfig */,
+				A9D3C22B87F73616512D2243A71A3310 /* Pods-felix-firebaseemaillogin.release.xcconfig */,
+			);
+			name = "Pods-felix-firebaseemaillogin";
+			path = "Target Support Files/Pods-felix-firebaseemaillogin";
+			sourceTree = "<group>";
+		};
+		1E84FFDB43ED9A1940A14279ED455F5F /* GoogleInterchangeUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				8005B45B43DCF7744628D118CD5E2BA8 /* Frameworks */,
+			);
+			path = GoogleInterchangeUtilities;
+			sourceTree = "<group>";
+		};
+		2ABA8F7BA215458D27153D649766A73F /* FirebaseAnalytics */ = {
+			isa = PBXGroup;
+			children = (
+				9E42C875269107D80E305CC832D7B5F8 /* Frameworks */,
+			);
+			path = FirebaseAnalytics;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		492FA2F319B64E2C6ADCAEEC450992F0 /* GoogleUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				F81F16F781C66BB5DD6F8F607AE1B7F7 /* Frameworks */,
+			);
+			path = GoogleUtilities;
+			sourceTree = "<group>";
+		};
+		4DDD284BE842D59A41AB3C93459FCA9B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF11577D1086BBD20AB1515F7B122A93 /* FirebaseInstanceID.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		634DAB1E26EE4AD8712B2E5E22F4F24A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4C79E06FB30F82BD4B36C61BCC20C9D /* Firebase */,
+				2ABA8F7BA215458D27153D649766A73F /* FirebaseAnalytics */,
+				CE3779316AC2B4A7F68C00AC6E471071 /* FirebaseAuth */,
+				639628D744923DBBAF0C4B2B12FB69B6 /* FirebaseInstanceID */,
+				1E84FFDB43ED9A1940A14279ED455F5F /* GoogleInterchangeUtilities */,
+				9A536A9154F031EF28F3C777726028EB /* GoogleNetworkingUtilities */,
+				0467A09FD982402E503CCD5089004D0F /* GoogleSymbolUtilities */,
+				492FA2F319B64E2C6ADCAEEC450992F0 /* GoogleUtilities */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		639628D744923DBBAF0C4B2B12FB69B6 /* FirebaseInstanceID */ = {
+			isa = PBXGroup;
+			children = (
+				336B5FA62C43B44C37C87324932952E7 /* FIRInstanceID.h */,
+				4DDD284BE842D59A41AB3C93459FCA9B /* Frameworks */,
+			);
+			path = FirebaseInstanceID;
+			sourceTree = "<group>";
+		};
+		7098BE93D27ECEE6AE67C28744FC272A /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				479708CD7335FD4A9F50BB7A6BD0BDA7 /* Firebase.h */,
+			);
+			name = Analytics;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				634DAB1E26EE4AD8712B2E5E22F4F24A /* Pods */,
+				D04F23554CF53AD1E6330CE3677AAE0C /* Products */,
+				C9A214AC2C68E17A70DCC10A67641433 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8005B45B43DCF7744628D118CD5E2BA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34CAF262BB71E7850041F47EF3260ED5 /* GoogleInterchangeUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A536A9154F031EF28F3C777726028EB /* GoogleNetworkingUtilities */ = {
+			isa = PBXGroup;
+			children = (
+				E91858166B62F38BCCBE847265D98687 /* Frameworks */,
+			);
+			path = GoogleNetworkingUtilities;
+			sourceTree = "<group>";
+		};
+		9E42C875269107D80E305CC832D7B5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3021240F567B3789E2D53F0B5877AE09 /* FirebaseAnalytics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E94CBD0C1F5E0F387F97F26ED2B4E33 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E553A7EF3FB34805207AE443F886243A /* FirebaseAuth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4C79E06FB30F82BD4B36C61BCC20C9D /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				7098BE93D27ECEE6AE67C28744FC272A /* Analytics */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9A214AC2C68E17A70DCC10A67641433 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1E3A4F8378891B77E4236D0803AAE116 /* Pods-felix-firebaseemaillogin */,
+				CE1F1A379BB967CB8FD3EC2FB28AE396 /* Pods-felix-firebaseemailloginTests */,
+				ECAAD00E0759B684D8C41E8F2001B427 /* Pods-felix-firebaseemailloginUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CE1F1A379BB967CB8FD3EC2FB28AE396 /* Pods-felix-firebaseemailloginTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E0F108B0170815A24A2B8ED179BB8C2 /* Pods-felix-firebaseemailloginTests-acknowledgements.markdown */,
+				4B1BB019CA8A3B20B04D42EB309E1A35 /* Pods-felix-firebaseemailloginTests-acknowledgements.plist */,
+				B3159711C181D04530A387EABED383CA /* Pods-felix-firebaseemailloginTests-dummy.m */,
+				5AE7542BE0DEA7355990B3993D928FF7 /* Pods-felix-firebaseemailloginTests-frameworks.sh */,
+				0AA660E159ADF734856AF30030862857 /* Pods-felix-firebaseemailloginTests-resources.sh */,
+				63C3F9E42E8909834DB7F7781965F5E9 /* Pods-felix-firebaseemailloginTests.debug.xcconfig */,
+				DB7BEFBB5BDE918C0331726FDD1A62FB /* Pods-felix-firebaseemailloginTests.release.xcconfig */,
+			);
+			name = "Pods-felix-firebaseemailloginTests";
+			path = "Target Support Files/Pods-felix-firebaseemailloginTests";
+			sourceTree = "<group>";
+		};
+		CE3779316AC2B4A7F68C00AC6E471071 /* FirebaseAuth */ = {
+			isa = PBXGroup;
+			children = (
+				9E94CBD0C1F5E0F387F97F26ED2B4E33 /* Frameworks */,
+			);
+			path = FirebaseAuth;
+			sourceTree = "<group>";
+		};
+		D04F23554CF53AD1E6330CE3677AAE0C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47878BFB9B8A5B0D91470D442CDD5AE2 /* libPods-felix-firebaseemaillogin.a */,
+				EA3B2EC7CA11FC7BD177C8D8F9AFA746 /* libPods-felix-firebaseemailloginTests.a */,
+				A8CF1594EB2D2756B026E1783B7220DF /* libPods-felix-firebaseemailloginUITests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC9015FE90790A9ECFD4771F6399FB10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				06B85C3A114C9E87BC9666EF491964CC /* GoogleSymbolUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E91858166B62F38BCCBE847265D98687 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98BB44A16F79BEF584F971E949214C98 /* GoogleNetworkingUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECAAD00E0759B684D8C41E8F2001B427 /* Pods-felix-firebaseemailloginUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E46C730C114B4DE1FDA33D30476D08DE /* Pods-felix-firebaseemailloginUITests-acknowledgements.markdown */,
+				FA544339E94DA34EC892AB30B192CBB7 /* Pods-felix-firebaseemailloginUITests-acknowledgements.plist */,
+				CFA53325DCCB71366F77C761BA63854C /* Pods-felix-firebaseemailloginUITests-dummy.m */,
+				221D433E706DC75AC0BBEAE3B44772F5 /* Pods-felix-firebaseemailloginUITests-frameworks.sh */,
+				5DE2687BAA29CFDA3420DF6E449B352B /* Pods-felix-firebaseemailloginUITests-resources.sh */,
+				19D31203316217F5B2B108FAD238C64F /* Pods-felix-firebaseemailloginUITests.debug.xcconfig */,
+				A266BC1C100EAB1CCA007AD16AAD9C67 /* Pods-felix-firebaseemailloginUITests.release.xcconfig */,
+			);
+			name = "Pods-felix-firebaseemailloginUITests";
+			path = "Target Support Files/Pods-felix-firebaseemailloginUITests";
+			sourceTree = "<group>";
+		};
+		F81F16F781C66BB5DD6F8F607AE1B7F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94E4F17500394FC485EE7C06E1FD1FB4 /* GoogleUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51D35FBC821E7D347CFB570C2D4EAEC4 /* Pods-felix-firebaseemailloginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 953E97F6490BD6352ACA71B99A28B78F /* Build configuration list for PBXNativeTarget "Pods-felix-firebaseemailloginTests" */;
+			buildPhases = (
+				C9160E33A6BFFA4102CDF13E04F3DFE9 /* Sources */,
+				4A842E0F5FFEEBD61F1EBDA883A6B25C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-felix-firebaseemailloginTests";
+			productName = "Pods-felix-firebaseemailloginTests";
+			productReference = EA3B2EC7CA11FC7BD177C8D8F9AFA746 /* libPods-felix-firebaseemailloginTests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6B212B9E4D6AD00AB77B41A115E90F60 /* Pods-felix-firebaseemailloginUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B0D4486FD80CAD24083150D62D0EF1B /* Build configuration list for PBXNativeTarget "Pods-felix-firebaseemailloginUITests" */;
+			buildPhases = (
+				F7AA35232FB4C66F55B5828E4F93E89E /* Sources */,
+				38735F6FEE18958A58A6F15E2D3CC1EC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-felix-firebaseemailloginUITests";
+			productName = "Pods-felix-firebaseemailloginUITests";
+			productReference = A8CF1594EB2D2756B026E1783B7220DF /* libPods-felix-firebaseemailloginUITests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D339D7CC3CD5FFCDC10C082E9E71AF26 /* Pods-felix-firebaseemaillogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCCB57A843236F8F471DBA72C2C5E51F /* Build configuration list for PBXNativeTarget "Pods-felix-firebaseemaillogin" */;
+			buildPhases = (
+				60DD8CC3FC339CC98573BBFFFA842B85 /* Sources */,
+				95D7B3D399559C94D09C32CA3FA78FC5 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-felix-firebaseemaillogin";
+			productName = "Pods-felix-firebaseemaillogin";
+			productReference = 47878BFB9B8A5B0D91470D442CDD5AE2 /* libPods-felix-firebaseemaillogin.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D04F23554CF53AD1E6330CE3677AAE0C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D339D7CC3CD5FFCDC10C082E9E71AF26 /* Pods-felix-firebaseemaillogin */,
+				51D35FBC821E7D347CFB570C2D4EAEC4 /* Pods-felix-firebaseemailloginTests */,
+				6B212B9E4D6AD00AB77B41A115E90F60 /* Pods-felix-firebaseemailloginUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60DD8CC3FC339CC98573BBFFFA842B85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17990AF76ED4954F67F84E1D762FF6CD /* Pods-felix-firebaseemaillogin-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9160E33A6BFFA4102CDF13E04F3DFE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF8D95E949270E3CBDC65CE7DFE7A70 /* Pods-felix-firebaseemailloginTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7AA35232FB4C66F55B5828E4F93E89E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23339AD323183C9952EEE4418197BF64 /* Pods-felix-firebaseemailloginUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ED624D53FBD9D9F0D26AD6483B00DCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A266BC1C100EAB1CCA007AD16AAD9C67 /* Pods-felix-firebaseemailloginUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		985E18B86AD4FA6A2C09F0D3E8B00C1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB7BEFBB5BDE918C0331726FDD1A62FB /* Pods-felix-firebaseemailloginTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9984A36F15381524F494188AD6505859 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19D31203316217F5B2B108FAD238C64F /* Pods-felix-firebaseemailloginUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A2BAFD28E43C8582BAF5C97CA34F5BEA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C3F9E42E8909834DB7F7781965F5E9 /* Pods-felix-firebaseemailloginTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C65BB206DEE78B6E77881BAA1E6B631A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8027CE76B23DC2A0F0E5C3C35983EAF6 /* Pods-felix-firebaseemaillogin.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D02EB2E77484864BA31FDC83D18159EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9D3C22B87F73616512D2243A71A3310 /* Pods-felix-firebaseemaillogin.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		953E97F6490BD6352ACA71B99A28B78F /* Build configuration list for PBXNativeTarget "Pods-felix-firebaseemailloginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BAFD28E43C8582BAF5C97CA34F5BEA /* Debug */,
+				985E18B86AD4FA6A2C09F0D3E8B00C1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B0D4486FD80CAD24083150D62D0EF1B /* Build configuration list for PBXNativeTarget "Pods-felix-firebaseemailloginUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9984A36F15381524F494188AD6505859 /* Debug */,
+				4ED624D53FBD9D9F0D26AD6483B00DCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCCB57A843236F8F471DBA72C2C5E51F /* Build configuration list for PBXNativeTarget "Pods-felix-firebaseemaillogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C65BB206DEE78B6E77881BAA1E6B631A /* Debug */,
+				D02EB2E77484864BA31FDC83D18159EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
